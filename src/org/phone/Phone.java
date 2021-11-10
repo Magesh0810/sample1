@@ -8,6 +8,9 @@ public class Phone{
 	public  void phoneInfo(int serial) {
 		System.out.println("phone serial is:"+serial);
 	}
+	private void phoneModel() {
+		System.out.println("iphone");
+	}
 	public static void main(String[] args) {
 		Phone p = new Phone();
 		p.phoneInfo();
